@@ -46,5 +46,9 @@ namespace SpotifyApp
 
             await Navigation.PopAsync();
         }
+        async void OnBackButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
 	}
 }

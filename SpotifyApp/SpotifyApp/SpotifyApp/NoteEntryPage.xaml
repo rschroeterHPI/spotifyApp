@@ -10,12 +10,16 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Button Text="Save"
                         Clicked="OnSaveButtonClicked"/>
                 <Button Text="Delete"
                         Grid.Column="1"
                         Clicked="OnDeleteButtonClicked"/>
+                <Button Text="Back"
+                        Grid.Column="2"
+                        Clicked="OnBackButtonClicked"/>
             </Grid>
         </StackLayout>
     </ContentPage.Content>
